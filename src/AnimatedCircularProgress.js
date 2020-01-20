@@ -10,9 +10,6 @@ export default class AnimatedCircularProgress extends React.PureComponent {
     this.state = {
       fillAnimation: new Animated.Value(props.prefill)
     };
-    this.state.fillAnimation.addListener(({ value }) =>
-      console.log("animating: " + value)
-    );
   }
 
   componentDidMount() {

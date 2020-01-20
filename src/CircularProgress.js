@@ -53,8 +53,6 @@ export default class CircularProgress extends React.PureComponent {
       dashedBackground
     } = this.props;
 
-    console.log("FILL ME!" + fill);
-
     const maxWidthCircle = backgroundWidth
       ? Math.max(width, backgroundWidth)
       : width;
